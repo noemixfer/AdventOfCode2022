@@ -76,6 +76,7 @@ fun main() {
     println(if (inputLines.myPoints() > inputLines.elfPoints()) "I win!"
             else if (inputLines.elfPoints() > inputLines.myPoints()) "The elf wins..."
             else "It's a draw!")
+
     println()
     println("***** PART TWO *****")
     println("My updated score is ${inputLines.updatedMyPoints()}")
