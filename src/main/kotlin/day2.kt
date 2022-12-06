@@ -4,7 +4,7 @@ val inputLines = File("C:\\ISEL\\AdventOfCode2022\\AdventOfCode2022\\src\\main\\
 
 // Part 1
 fun List<String>.myPoints(): Int {
-    var points: Int = 0
+    var points = 0
     this.forEach {
         if ((it[0] == 'A' && it[2] == 'X')
             || (it[0] == 'B' && it[2] == 'Y')
@@ -25,7 +25,7 @@ fun List<String>.myPoints(): Int {
 }
 
 fun List<String>.elfPoints(): Int {
-    var points: Int = 0
+    var points = 0
     this.forEach {
         if ((it[0] == 'A' && it[2] == 'X')
             || (it[0] == 'B' && it[2] == 'Y')
@@ -48,7 +48,7 @@ fun List<String>.elfPoints(): Int {
 // Part 2
 
 fun List<String>.updatedMyPoints(): Int {
-    var points: Int = 0
+    var points = 0
     this.forEach {
         if (it[2] == 'X') points += 0 // Lose
         else if (it[2] == 'Y') points += 3 // Draw
