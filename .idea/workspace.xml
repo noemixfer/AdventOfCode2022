@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="57bd1f03-c33f-4d1e-8ac6-bbf8ba2baa24" name="Changes" comment="day2">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,8 @@
       <workItem from="1670164879740" duration="5094000" />
       <workItem from="1670262913779" duration="3351000" />
       <workItem from="1670272403001" duration="92000" />
-      <workItem from="1670275269989" duration="3614000" />
+      <workItem from="1670275269989" duration="4171000" />
+      <workItem from="1670320491223" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="day2">
       <created>1670265960094</created>
@@ -87,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670278910385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day2">
+      <created>1670279321117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670279321117</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day2">
+      <created>1670279477512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670279477512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
