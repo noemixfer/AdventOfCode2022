@@ -1,6 +1,4 @@
-import java.io.File
-
-val inputLines3 = File("C:\\ISEL\\AdventOfCode2022\\AdventOfCode2022\\src\\main\\resources\\day3input.txt").readLines()
+val inputLines3 = object {}.javaClass.getResourceAsStream("day3input.txt")?.bufferedReader()?.readLines()!!
 
 // Part 1
 fun List<String>.firstHalf(): List<String> =
@@ -51,8 +49,10 @@ fun List<List<String>>.findEqualsInGroups(): List<Char> {
 fun main() {
     /* ***** PART ONE ***** */
     val equals = findEquals(inputLines3.firstHalf(), inputLines3.secondHalf())
+    println("What is the sum of the priorities of the item types that appear in both compartments of each rucksack?")
     println(equals.priority().prioritySum())
 
     /* ***** PART TWO ***** */
+    println("What is the sum of the priorities of the item types that correspond to the badges of each three-Elf group?")
     println(splitted.findEqualsInGroups().priority().prioritySum())
 }
