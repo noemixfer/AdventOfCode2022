@@ -1,6 +1,4 @@
-import java.io.File
-
-val inputLines = File("C:\\ISEL\\AdventOfCode2022\\AdventOfCode2022\\src\\main\\resources\\day2input.txt").readLines()
+val inputLines2 = object {}.javaClass.getResourceAsStream("day2input.txt")?.bufferedReader()?.readLines()!!
 
 // Part 1
 fun List<String>.myPoints(): Int {
@@ -71,18 +69,18 @@ fun List<String>.updatedMyPoints(): Int {
 
 fun main() {
     println("***** PART ONE *****")
-    println("My score is ${inputLines.myPoints()}")
-    println("The elf's score is ${inputLines.elfPoints()}")
-    println(if (inputLines.myPoints() > inputLines.elfPoints()) "I win!"
-            else if (inputLines.elfPoints() > inputLines.myPoints()) "The elf wins..."
+    println("My score is ${inputLines2.myPoints()}")
+    println("The elf's score is ${inputLines2.elfPoints()}")
+    println(if (inputLines2.myPoints() > inputLines2.elfPoints()) "I win!"
+            else if (inputLines2.elfPoints() > inputLines2.myPoints()) "The elf wins..."
             else "It's a draw!")
 
     println()
 
     println("***** PART TWO *****")
-    println("My updated score is ${inputLines.updatedMyPoints()}")
-    println("The elf's score is ${inputLines.elfPoints()}")
-    println(if (inputLines.updatedMyPoints() > inputLines.elfPoints()) "I win!"
-    else if (inputLines.elfPoints() > inputLines.updatedMyPoints()) "The elf wins..."
+    println("My updated score is ${inputLines2.updatedMyPoints()}")
+    println("The elf's score is ${inputLines2.elfPoints()}")
+    println(if (inputLines2.updatedMyPoints() > inputLines2.elfPoints()) "I win!"
+    else if (inputLines2.elfPoints() > inputLines2.updatedMyPoints()) "The elf wins..."
     else "It's a draw!")
 }
