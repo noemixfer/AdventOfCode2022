@@ -109,8 +109,8 @@ fun main() {
      */
 
     /* ***** PART TWO ***** */
-    /* Just as in Part 1, wasn't able to form a string,
-     * So I just printed the final stack form and took note of every stack's las item
+    /* Just as in Part 1, I wasn't able to form a string,
+     * So I just printed the final stack form and took note of every stack's last item
      * The output was supposed to be MHQTLJRLB
      */
     println(instructList.moveAllAtOnce(stackedUp))
